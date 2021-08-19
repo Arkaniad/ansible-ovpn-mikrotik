@@ -16,4 +16,6 @@
       setup:
 
   roles:
+    - secret
     - openvpn
+    

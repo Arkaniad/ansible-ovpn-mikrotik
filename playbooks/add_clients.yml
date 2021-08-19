@@ -4,4 +4,5 @@
   hosts: "{{ cmd_hosts | default('openvpn') }}"
 
   roles:
+    - secret
     - add_clients
